@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,  sans-serif;
+    background-color: rgb(208, 211, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    /* background-image: url('mockup-blue-wall-with-beige-small-chair-decor-living-room_667920-342.avif'); */
+    background-image: url('graduation_0.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.login-container{
+    background-color: #f1ecec;
+    border: 1px solid #120d0d;
+    box-shadow: 0 0 10px rgb(208, 222, 195);
+    text-align: center;
+    max-width: 300px;
+    padding: 20px;
+    background-image: url('trans.jpg');
+    
+}
+form label{
+    display: block;
+    text-align: left;
+    margin: 5px 0;
+}
+form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    width: 100%;
+    background-color: aqua;
+    color: #1884c3;
+    padding: 10PX;
+    border: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(79, 234, 76);
+}
+.options{
+    margin-top: 10px;
+
+}
+.options a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: rgb(13, 15, 150);
+}
+h2{
+    margin-bottom: 20px;
+}
+h1{
+    -webkit-text-fill-color: #964c17;
+    text-align: left;
+}
